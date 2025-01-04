@@ -127,7 +127,7 @@ This works be utilizing 2 different tools called [Docker](https://en.wikipedia.o
 
     **Run the following commands:**
     ```
-    echo "~/docker-wine wine /home/wineuser/.wine/drive_c/Keil_v5/UV4/UV4.exe" > ~/Desktop/Keil_ARM_MDK.command
+    echo "/Users/xxx/docker_data/docker-wine wine /home/wineuser/.wine/drive_c/Keil_v5/UV4/UV4.exe" > ~/Desktop/Keil_ARM_MDK.command
     ```
     ```
     chmod +x ~/Desktop/Keil_ARM_MDK.command
