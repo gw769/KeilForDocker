@@ -46,7 +46,9 @@ This works be utilizing 2 different tools called [Docker](https://en.wikipedia.o
 
     **Run the following commands:**
     ```
-    curl https://raw.githubusercontent.com/scottyhardy/docker-wine/master/docker-wine -o ~/docker-wine
+    mkdir docker-data
+    cd docker-data
+    curl https://raw.githubusercontent.com/scottyhardy/docker-wine/master/docker-wine -o ./docker-wine
     ```
     ```
     chmod +x ~/docker-wine
@@ -77,7 +79,7 @@ This works be utilizing 2 different tools called [Docker](https://en.wikipedia.o
 
     **Run the following command:**
     ```
-    ./docker-wine wget https://armkeil.blob.core.windows.net/eval/MDK531.EXE -P /home/wineuser/Downloads
+    ./docker-wine wget https://armkeil.blob.core.windows.net/eval/MDK541.EXE -P /home/wineuser/Downloads
     ```
 
     The above command will start the download of the Keil ARM MDK installer to the "Downloads" folder inside your virtual environment.
