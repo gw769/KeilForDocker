@@ -81,7 +81,7 @@ This works be utilizing 2 different tools called [Docker](https://en.wikipedia.o
 
     **Run the following command:**
     ```
-    ./docker-wine wget https://armkeil.blob.core.windows.net/eval/MDK541.EXE -P /home/wineuser/Downloads
+    ./docker-wine wget https://armkeil.blob.core.windows.net/eval/MDK531.EXE -P /home/wineuser/Downloads
     ```
 
     The above command will start the download of the Keil ARM MDK installer to the "Downloads" folder inside your virtual environment.
