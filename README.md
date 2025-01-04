@@ -58,6 +58,8 @@ This works be utilizing 2 different tools called [Docker](https://en.wikipedia.o
 
     **Run the following command:**
     ```
+    docker pull crpi-7tibqblv4xa2f6v8.cn-shanghai.personal.cr.aliyuncs.com/gw769/docker-wine:latest
+    docker tag crpi-7tibqblv4xa2f6v8.cn-shanghai.personal.cr.aliyuncs.com/gw769/docker-wine:latest scottyhardy/docker-wine:latest
     ./docker-wine
     ```
 
